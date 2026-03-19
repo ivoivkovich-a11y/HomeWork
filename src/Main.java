@@ -6,23 +6,24 @@ public class Main {
         byte age = 17;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + " , то он совершеннолетний");
-        } else
+        } else {
             System.out.println("Если возраст человека равен " + age + " он не достиг совершеннолетия, нужно немного подождать");
-        //Задание №2
-        byte temperatur = 4;
-        if (temperatur < 5) {
-            System.out.println("На улице " + temperatur + " градуса, нужно надеть шапку");
         }
-        if (temperatur > 5) {
-            System.out.println("На улице " + temperatur + " градусов, можно идти без шапки");
+            //Задание №2
+        byte temperature = 5;
+        if (temperature < 5) {
+            System.out.println("На улице " + temperature + " градуса, нужно надеть шапку");
+        } else {
+            System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
         }
-        //Задание №3
+            //Задание №3
         short speed = 59;
         if (speed > 60){
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
-        } else
+        } else {
             System.out.println("Если скорость " + speed + ", можно ездить спокойно");
-        //Задание №4
+        }
+            //Задание №4
         byte age2 = 25;
         if (age2 >= 2 && age2 <= 6) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад");
@@ -37,7 +38,7 @@ public class Main {
         byte age3 = 15;
         if (age3 < 5) {
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему нельзя кататься на аттракционе");
-        } if (age3 > 5 && age3 <= 14) {
+        } if (age3 >= 5 && age3 <= 14) {
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе в сопровождении");
         }if (age3 > 14) {
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе без сопровождения взрослого");
