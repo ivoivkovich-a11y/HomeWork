@@ -27,20 +27,25 @@ public class Main {
         byte age2 = 25;
         if (age2 >= 2 && age2 <= 6) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в детский сад");
-        } if (age2 >= 7 && age2 <= 17) {
+        }
+        if (age2 >= 7 && age2 <= 17) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему нужно ходить в школу");
-        } if (age2 >= 18 && age2 <= 24) {
+        }
+        if (age2 >= 18 && age2 <= 24) {
             System.out.println("Если возраст человека равен " + age2 + ", то его место в университете");
-        } if (age2 > 24) {
+        }
+        if (age2 > 24) {
             System.out.println("Если возраст человека равен " + age2 + ", то ему пора ходить на работу");
         }
         //Задание №5
         byte age3 = 15;
         if (age3 < 5) {
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему нельзя кататься на аттракционе");
-        } if (age3 >= 5 && age3 <= 14) {
+        }
+        if (age3 >= 5 && age3 <= 14) {
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе в сопровождении");
-        }if (age3 > 14) {
+        }
+        if (age3 > 14) {
             System.out.println("Если возраст ребенка равен " + age3 + ", то ему можно кататься на аттракционе без сопровождения взрослого");
         }
         //Задание №6
@@ -48,23 +53,26 @@ public class Main {
         byte carriage = 102;
         byte seat = 60;
         int standingRoom = carriage - seat;
-        if (passenger < seat){
+        if (passenger < seat) {
             System.out.println("В вагоне " + passenger + " пассажиров. Есть сидячие места");
-        }if (passenger >= seat && passenger < carriage){
+        }
+        if (passenger >= seat && passenger < carriage){
             System.out.println("В вагоне " + passenger + " пассажиров. Есть стоячие места");
         }
-        if (passenger >= carriage){
+        if (passenger >= carriage) {
             System.out.println("В вагоне " + passenger + " пассажиров. Нет места");
         }
         //Задание №7
         int one = 1;
         int two = 2;
         int three = 3;
-        if (one > two && one >three){
+        if (one > two && one >three) {
             System.out.println("one самое большое");
-        }if (two > one && two > three){
+        }
+        if (two > one && two > three) {
             System.out.println("two самое большое");
-        }if (three > one && three > two){
+        }
+        if (three > one && three > two) {
             System.out.println("three самое большое");
         }
     }
